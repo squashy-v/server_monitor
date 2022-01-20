@@ -1,0 +1,3 @@
+#!/bin/bash
+
+curl -s https://ipchicken.com | egrep -o '([[:digit:]]{1,3}\.){3}[[:digit:]]{1,3}'
