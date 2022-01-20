@@ -33,9 +33,7 @@
     $openvpn_status = shell_exec('./openvpn.sh');
     $sshd_status = shell_exec('./sshd.sh');
     $apache_status = shell_exec('./apache2.sh');
-    echo "Openvpn " . $openvpn_status;
-    echo "SSHD " . $sshd_status;
-    echo "Apache2 " . $apache_status;
+    echo "Openvpn " . $openvpn_status . "<br>" . "SSHD " . $sshd_status . "<br>" ."Apache2 " . $apache_status;
 
     ?>
     </p>
