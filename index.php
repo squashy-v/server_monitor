@@ -37,7 +37,12 @@
 
     ?>
     </p>
+    <h2 class="text">Pivpn clients</h2>
+    <?php
+     $current_clients = shell_exec('./pivpn.sh');
+     echo $current_clients;
 
+     ?>
 
 
 </body>
