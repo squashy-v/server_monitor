@@ -1,3 +1,3 @@
 #!/bin/bash
 
-pivpn -c
+sudo pivpn -c | awk 'FNR>4 {print}'
