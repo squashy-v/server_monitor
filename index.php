@@ -36,13 +36,6 @@
     echo "Openvpn " . $openvpn_status . "<br>" . "SSHD " . $sshd_status . "<br>" ."Apache2 " . $apache_status;
 
     ?>
-    </p>
-    <h2 class="text">Pivpn clients</h2>
-    <?php
-     $current_clients = shell_exec('./pivpn.sh');
-     echo $current_clients;
-
-     ?>
 
 
 </body>
